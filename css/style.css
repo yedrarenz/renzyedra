@@ -1,0 +1,57 @@
+* {box-sizing: border-box;}
+
+body {
+	margin: 0;
+	background-image: url('assets/background.png');	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #2a2a2a;
+
+}
+
+.header {
+	padding: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.trendmicro {     
+	width: auto;
+	height: 1.3em;
+	vertical-align:middle;
+	margin-left: 20px;
+	margin-right: 3px;
+}
+
+.lol {
+	width: auto;
+	height: 2em;
+	vertical-align:middle;
+	margin-right: 3px;
+}
+
+h3 { font-family: "Segoe UI Semibold"; font-size: 23px; margin-bottom: -15px;}
+
+p { font-family: "Segoe UI Semibold"; }
+
+.header-text {
+    text-align: center;
+}
+
+.content {
+	height:50%;
+	width: auto;
+	text-align: center;
+}
+
+.footer {
+	width: auto:;
+	height: 10%;
+	text-align: center;
+}
