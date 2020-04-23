@@ -1,8 +1,11 @@
 * {box-sizing: border-box;}
 
 @font-face {
-    font-family: Segoe;
+    font-family: 'Segoe';
     src: url('../fonts/seguisb.ttf');
+    src: url('../fonts/seguisb.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
