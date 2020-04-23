@@ -1,9 +1,11 @@
 * {box-sizing: border-box;}
 
 @font-face {
-    font-family: 'Segoe';
-    src: url('../fonts/seguisb.ttf');
-    src: url('../fonts/seguisb.svg') format('svg');
+  font-family: '../fonts/Helvetica-Neue-Interface-M3';
+    src:  url('../fonts/Helvetica-Neue-Interface-M3.ttf.woff') format('woff'),
+    url('../fonts/Helvetica-Neue-Interface-M3.ttf.svg#Helvetica-Neue-Interface-M3') format('svg'),
+    url('../fonts/Helvetica-Neue-Interface-M3.ttf.eot'),
+    url('../fonts/Helvetica-Neue-Interface-M3.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -15,7 +17,7 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	color: #2a2a2a;
-
+	font-family: '../fonts/Helvetica-Neue-Interface-M3';
 }
 
 .header {
@@ -44,9 +46,7 @@ body {
 	margin-right: 3px;
 }
 
-h3 { font-family: "Segoe UI Semibold"; font-size: 23px; margin-bottom: -15px;}
-
-p { font-family: "Segoe UI Semibold"; }
+h3 { font-size: 23px; margin-bottom: -15px;}
 
 .header-text {
     text-align: center;
